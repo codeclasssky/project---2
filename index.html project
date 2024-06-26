@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, main, footer {
+            padding: 20px;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .contact-info img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#facts">Facts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>I currently attend the University of Montana, majoring in Marketing and Media Arts. I am doing a coding class and learned about variable declaration, basic control structures, data structures, object-oriented programming, and more. I plan to graduate in 2025.</p>
+            <img src="https://www.pinterest.com/pin/194991858858996416/" alt="University of Montana">
+        </section>
+        <section id="facts">
+            <h2>Web Design Facts</h2>
+            <ul>
+                <li>Variable declaration</li>
+                <li>Basic control structures</li>
+                <li>Data structures</li>
+                <li>Object-oriented programming</li>
+                <li>Environments</li>
+                <li>Markups</li>
+                <li>Pages</li>
+                <li>Media</li>
+                <li>Forms</li>
+                <li>Presentations</li>
+                <li>Typography and layout</li>
+            </ul>
+            <img src="https://www.pinterest.com/pin/345721708912467483/" alt="Web Design">
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'><circle cx='12' cy='12' r='10' fill='yellow' stroke='black' stroke-width='2'/><circle cx='8' cy='10' r='1' fill='black'/><circle cx='16' cy='10' r='1' fill='black'/><path d='M8,16 C8,16 12,18 16,16' stroke='black' stroke-width='2' fill='none'/></svg>" alt="Smiley Face Logo">
+            <p>Email: <a href="mailto:skylarhardesty871@gmail.com">skylarhardesty871@gmail.com</a></p>
+            <p>Phone: 509-429-0527</p>
+            <p>Instagram: <a href="https://www.instagram.com/skylaramh" target="_blank">@skylaramh</a></p>
+            <p>&copy; 2024 Skylar Hardesty. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
