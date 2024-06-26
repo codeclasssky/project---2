@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, main, footer {
+            padding: 20px;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#facts">Facts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Welcome to my page! I'm excited to share a bit about myself and my web design journey.</p>
+            <img src="URL_TO_YOUR_IMAGE" alt="About Me Image">
+        </section>
+        <section id="facts">
+            <h2>Web Design Facts</h2>
+            <ul>
+                <li>Web design is both an art and a science.</li>
+                <li>Consistency in design is key to user experience.</li>
+                <li>Responsive design ensures your site looks great on all devices.</li>
+                <li>Colors and typography play a crucial role in user engagement.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
